@@ -50,7 +50,7 @@ app.get('/api/functions', (req, res) => {
 });
 // Handle requests for the root URL
 
-app.use(express.static(path.join(__dirname, 'doc')));
+app.use(express.static(path.join(__dirname, 'docs')));
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
