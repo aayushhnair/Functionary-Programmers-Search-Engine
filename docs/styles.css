@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background: url(sky.jpg);
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(4, 104, 2);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.login {
+    align-items: center;
+}
+
+form {
+    background: rgb(20, 20, 20);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px #ffffff;
+    text-align: center;
+    font-size: 24px;
+}
+
+.content {
+    background-color: white;
+    color: rgb(4, 110, 0);
+    font-style: italic;
+    margin: 10px;
+    padding: 5%;
+}
+
+.container {
+    padding: 5%;
+    text-align: center;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.search-box {
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+    background: transparent;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.result-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: transparent;
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+li {
+    padding: 15px 10px;
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #86b4ec;
+}
+
+li:hover {
+    background: #86b4ec;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 2%;
+    }
+
+    .search-box {
+        width: 100%;
+    }
+
+    input[type="text"] {
+        font-size: 16px;
+    }
+
+    .header {
+        font-size: 18px;
+    }
+}
+::-webkit-scrollbar {
+    width: 0px; }
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(4, 110, 0);; 
+}
+
+scrollbar-color: transparent;
+
+
+-ms-overflow-style: none; 
